@@ -54,6 +54,19 @@
                 android:hint="Password" />
         </LinearLayout>
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxHolder">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember me"
+                android:textColor="#ffffff"
+                android:id="@+id/checkBox" />
+        </LinearLayout>
 
     </LinearLayout>
 </RelativeLayout>
