@@ -105,7 +105,8 @@
                 android:text="Sign Up"
                 android:textColor="#ffffff"
                 android:id="@+id/textView2"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:gravity="right"/>
         </LinearLayout>
 
     </LinearLayout>
