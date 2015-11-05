@@ -2,9 +2,11 @@ package com.example.ferne_000.proyecto044;
 
 import android.app.Activity;
 //import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 
 public class MainActivity extends Activity {
@@ -14,6 +16,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+
     }
 
     @Override
@@ -36,5 +39,11 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void irSegundoActivity(View view){
+        Intent i = new Intent(this,sec_activity.class);
+        startActivity(i);
+
     }
 }
